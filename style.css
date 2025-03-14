@@ -137,6 +137,44 @@ body {
 .btn-primary:hover {
     background-color: #007bff;
 }
+/* Estilo de hover para el botón de WhatsApp */
+.btn-success:hover {
+    background-color: #28a745; /* Cambia ligeramente el color al pasar el cursor */
+    transform: scale(1.05); /* Efecto de aumento al hacer hover */
+    transition: transform 0.3s ease;
+}
+.card-body i {
+    font-size: 24px;  /* Tamaño del icono */
+    width: 30px;  /* Ancho fijo para todos los iconos */
+    height: 30px;  /* Altura fija si es necesario */
+    display: inline-block;
+    text-align: center;  /* Alinea el texto al centro del icono */
+    line-height: 30px;  /* Alinea verticalmente el texto del icono */
+    margin-right: 10px;  /* Espacio entre el icono y el texto */
+}
+.card-body ul li {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-bottom: 10px; /* Espacio entre los elementos */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.card-body ul li i {
+    font-size: 24px; /* Tamaño fijo de los iconos */
+    width: 30px;  /* Ancho fijo para el icono */
+    height: 30px;  /* Altura fija para el icono */
+    text-align: center;
+    line-height: 30px; /* Centra el icono verticalmente */
+    margin-right: 10px;  /* Espacio entre el icono y el texto */
+}
+
+.card-body ul li span {
+    display: inline-block;
+    max-width: calc(100% - 40px); /* Asegura que el texto ocupe todo el espacio disponible */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Si el texto es muy largo, lo corta con '...' */
+}
+
 
 
     
