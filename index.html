@@ -14,29 +14,36 @@
   <!-- BOTÓN MODO OSCURO -->
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #8c721e !important;">
-    <div class="container-fluid">
-        <img src="images/logodmc.png" alt="Logo Servicios Contables" style="max-width: 60px; border-radius: 100%;">
+    <div class="container-fluid d-flex align-items-center">
+        <!-- LOGO -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="images/logodmc.png" alt="Logo Servicios Contables" style="max-width: 50px; border-radius: 100%;" class="me-2">
+            <span class="fw-bold">DESPACHO CONTABLE Y FISCAL</span>
+        </a>
 
-      <a class="navbar-brand" href="#">DESPACHO CONTABLE Y FISCAL</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-            <button id="modoOscuro" class="btn" style="color: rgb(255, 255, 255);" >🌙 Modo Oscuro</button>
-          <li class="nav-item">
-            <a class="nav-link active" href="#servicios">Servicios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#tramites">Trámites</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contáctanos</a>
-          </li>
-        </ul>
-      </div>
+        <!-- BOTÓN MENÚ HAMBURGUESA -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENÚ -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <button id="modoOscuro" class="btn" style="color: rgb(255, 255, 255);">🌙 Modo Oscuro</button>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#tramites">Trámites</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#contacto">Contáctanos</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
+</nav>
+
   <!-- ENCABEZADO -->
 <header class="text-center">
     <img src="images/principal.png" alt="Imagen de Encabezado" class="img-fluid w-100" style="max-height: 400px; object-fit: cover;">
@@ -161,7 +168,7 @@ TRÁMITES</h1>
 <section id="contacto" class="container py-5">
     <div class="text-center mb-4" data-aos="fade-up">
         <h2 style="color: #8c721e; font-weight: bold;">Contáctanos</h2>
-        <p class="text-muted">Estamos aquí para ayudarte. Ponte en contacto con nosotros a través de los siguientes medios.</p>
+        <p class="text-center" style="font-size: 18px; color: #7f8c8d;">Estamos aquí para ayudarte. Ponte en contacto con nosotros a través de los siguientes medios.</p>
     </div>
 
     <div class="row justify-content-center">
