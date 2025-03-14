@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -23,180 +24,171 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
             <button id="modoOscuro" class="btn" style="color: rgb(255, 255, 255);" >🌙 Modo Oscuro</button>
-
           <li class="nav-item">
             <a class="nav-link active" href="#servicios">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#testimonios">Testimonios</a>
+            <a class="nav-link active" href="#tramites">Trámites</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contacto">Contáctanos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#chatbot">Chatbot</a>
-          </li>
-
         </ul>
       </div>
     </div>
   </nav>
   <!-- ENCABEZADO -->
 <header class="text-center">
-    <img src="images/AsesoriaFiscal.png" alt="Imagen de Encabezado" class="img-fluid w-100" style="max-height: 400px; object-fit: cover;">
+    <img src="images/principal.png" alt="Imagen de Encabezado" class="img-fluid w-100" style="max-height: 400px; object-fit: cover;">
 </header>
 
 
 <!-- SECCIÓN SERVICIOS -->
 <section id="servicios" class="container py-5">
-    <h1 data-aos="fade-down" style="color: #8c721e; " class="text-center">DMC TE OFRECE LOS SIGUIENTES TRÁMITES Y SERVICIOS</h1>
-    <p>Ofrecemos asesoría contable y financiera de alta calidad, personalizada para empresas y autónomos que buscan optimizar su gestión fiscal y financiera</p>
+    <h1 data-aos="fade-down" style="color: #8c721e; font-weight: bold; font-size: 36px;" class="text-center">
+        DMC TE OFRECE LOS SIGUIENTES TRÁMITES Y SERVICIOS
+    </h1>    
+    <p class="text-center" style="font-size: 18px; color: #7f8c8d;">Ofrecemos asesoría contable y financiera de alta calidad, personalizada para empresas y autónomos que buscan optimizar su gestión fiscal y financiera</p>
     
     <!-- Servicios destacados -->
     <div class="row mb-5">
-      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card shadow-lg border-0 rounded-3 hover-shadow">
-          <img src="images/AsesoriaFiscal.png" class="card-img-top" alt="Asesoría Fiscal" style="object-fit: cover; height: 200px;">
-          <div class="card-body">
-            <h5 class="card-title" style="font-family: 'Roboto', sans-serif; color: #2c3e50;">Asesoría Fiscal</h5>
-            <p class="card-text" style="font-size: 16px; color: #7f8c8d;">Te ayudamos a optimizar tus impuestos y cumplir con todas las obligaciones fiscales de tu empresa o como autónomo.</p>
-          </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card shadow-lg border-0 rounded-3 hover-shadow">
+                <img src="images/AsesoriaFiscal.png" class="card-img-top" alt="Asesoría Fiscal" style="object-fit: cover; height: 200px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: 'Roboto', sans-serif; color: #2c3e50;">Asesoría Fiscal</h5>
+                    <p class="card-text" style="font-size: 16px; color: #7f8c8d;">Te ayudamos a optimizar tus impuestos y cumplir con todas las obligaciones fiscales de tu empresa o como autónomo.</p>
+                </div>
+            </div>
         </div>
-      </div>
-    
-      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="card shadow-lg border-0 rounded-3 hover-shadow">
-          <img src="images/ContabilidadFinanciera.png" class="card-img-top" alt="Contabilidad Financiera" style="object-fit: cover; height: 200px;">
-          <div class="card-body">
-            <h5 class="card-title" style="font-family: 'Roboto', sans-serif; color: #2c3e50;">Contabilidad Financiera</h5>
-            <p class="card-text" style="font-size: 16px; color: #7f8c8d;">Gestionamos tu contabilidad de forma profesional para que puedas tomar decisiones informadas y eficaces.</p>
-          </div>
-        </div>
-      </div>
-    
-      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="card shadow-lg border-0 rounded-3 hover-shadow">
-          <img src="images/AsesoriaAutonomos.png" class="card-img-top" alt="Asesoría para Autónomos" style="object-fit: cover; height: 200px;">
-          <div class="card-body">
-            <h5 class="card-title" style="font-family: 'Roboto', sans-serif; color: #2c3e50;">Asesoría para Autónomos</h5>
-            <p class="card-text" style="font-size: 16px; color: #7f8c8d;">Brindamos orientación especializada a autónomos, ayudándote a optimizar tus recursos fiscales y financieros.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Servicios detallados -->
-    <div class="row">
-      <!-- SERVICIOS ADMINISTRATIVOS -->
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100 border-0 rounded-3 shadow-lg hover-shadow">
-          <div class="card-header bg-dark text-white">
-            <h4 class="card-title" style="font-family: 'Roboto', sans-serif;">Trámites Administrativos</h4>
-          </div>
-          <div class="card-body">
-            <ul class="list-unstyled" style="font-size: 16px; color: #7f8c8d;">
-              <li>Constancia de Situación Fiscal</li>
-              <li>CFE</li>
-              <li>CURP Actualizada</li>
-              <li>NSS</li>
-              <li>Actas Certificadas: Nacimiento, Matrimonio, Defunción y Divorcio</li>
-              <li>Citas para trámites</li>
-              <li>Firma Electrónica</li>
-              <li>Alta al RFC</li>
-              <li>Actualización del RFC</li>
-              <li>Renovación de Firma Electrónica</li>
-              <li>Pasaporte</li>
-              <li>INE</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-      <!-- SERVICIOS DE CONTABILIDAD -->
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100 border-0 rounded-3 shadow-lg hover-shadow">
-          <div class="card-header bg-dark text-white">
-            <h4 class="card-title" style="font-family: 'Roboto', sans-serif;">Servicios Contables</h4>
-          </div>
-          <div class="card-body">
-            <ul class="list-unstyled" style="font-size: 16px; color: #7f8c8d;">
-              <li>Declaración de impuestos (Personas Físicas)</li>
-              <li>Declaración Anual (Personas Físicas)</li>
-              <li>Descarga de Opinión al Cumplimiento</li>
-              <li>Actualización de Domicilio Fiscal</li>
-              <li>Sellos para Facturación</li>
-              <li>Creación de Contraseñas CIEC</li>
-              <li>Factura Electrónica</li>
-              <li>Asesoría Contable y Fiscal</li>
-              <li>Servicios de Contabilidad Empresarial</li>
-              <li>Digitalización y Corrección de Actas</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-      <!-- SERVICIOS INFONAVIT -->
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100 border-0 rounded-3 shadow-lg hover-shadow">
-          <div class="card-header bg-dark text-white">
-            <h4 class="card-title" style="font-family: 'Roboto', sans-serif;">Trámites INFONAVIT</h4>
-          </div>
-          <div class="card-body">
-            <ul class="list-unstyled" style="font-size: 16px; color: #7f8c8d;">
-              <li>Reseteo de Cuentas</li>
-              <li>Estado de Cuenta</li>
-              <li>Aviso de Retención</li>
-              <li>Constancia de No Adeudo</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
 
- <!-- SECCIÓN DE CONTACTO A WHATSAPP -->
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card shadow-lg border-0 rounded-3 hover-shadow">
+                <img src="images/ContabilidadFinanciera.png" class="card-img-top" alt="Contabilidad Financiera" style="object-fit: cover; height: 200px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: 'Roboto', sans-serif; color: #2c3e50;">Contabilidad Financiera</h5>
+                    <p class="card-text" style="font-size: 16px; color: #7f8c8d;">Gestionamos tu contabilidad de forma profesional para que puedas tomar decisiones informadas y eficaces.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card shadow-lg border-0 rounded-3 hover-shadow">
+                <img src="images/AsesoriaAutonomos.png" class="card-img-top" alt="Asesoría para Autónomos" style="object-fit: cover; height: 200px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: 'Roboto', sans-serif; color: #2c3e50;">Asesoría para Autónomos</h5>
+                    <p class="card-text" style="font-size: 16px; color: #7f8c8d;">Brindamos orientación especializada a autónomos, ayudándote a optimizar tus recursos fiscales y financieros.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+  <!-- SECCIÓN TRAMITES -->
+<section id="tramites" class="container ">
+    <h1 data-aos="fade-down" style="color: #8c721e; font-weight: bold; font-size: 36px; margin-bottom: 40px;" class="text-center">
+TRÁMITES</h1> 
+    <div class="row mb-5">
+        <!-- SERVICIOS ADMINISTRATIVOS -->
+        <div class="col-lg-4 col-md-4 mb-4">
+            <div class="card h-100 border-0 rounded-3 shadow-lg hover-shadow">
+                <div class="card-header text-white" style="background-color: #8c721e;">
+                    <h4 class="card-title" style="font-family: 'Roboto', sans-serif; font-size: 18px;">Trámites Administrativos</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled" style="font-size: 16px; color: #7f8c8d;">
+                        <li><i class="fas fa-file-alt"></i> Constancia de Situación Fiscal</li>
+                        <li><i class="fas fa-plug"></i> CFE</li>
+                        <li><i class="fas fa-id-card"></i> CURP Actualizada</li>
+                        <li><i class="fas fa-id-badge"></i> NSS</li>
+                        <li><i class="fas fa-check"></i><span>Actas: Nacimiento, Matrimonio, Defunción y Divorcio</span></li>
+                        <li><i class="fas fa-calendar-alt"></i> Citas para trámites</li>
+                        <li><i class="fas fa-signature"></i> Firma Electrónica</li>
+                        <li><i class="fas fa-user-plus"></i> Alta al RFC</li>
+                        <li><i class="fas fa-sync-alt"></i> Actualización del RFC</li>
+                        <li><i class="fas fa-file-upload"></i> Renovación de Firma Electrónica</li>
+                        <li><i class="fas fa-passport"></i> Pasaporte</li>
+                        <li><i class="fas fa-id-card"></i> INE</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICIOS DE CONTABILIDAD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 rounded-3 shadow-lg hover-shadow">
+                <div class="card-header text-white" style="background-color: #8c721e;">
+                    <h4 class="card-title" style="font-family: 'Roboto', sans-serif; font-size: 18px;">Servicios Contables</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled" style="font-size: 16px; color: #7f8c8d;">
+                        <li><i class="fas fa-calculator"></i> Declaración de impuestos (Personas Físicas)</li>
+                        <li><i class="fas fa-file"></i> Declaración Anual (Personas Físicas)</li>
+                        <li><i class="fas fa-download"></i> Descarga de Opinión al Cumplimiento</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Actualización de Domicilio Fiscal</li>
+                        <li><i class="fas fa-stamp"></i> Sellos para Facturación</li>
+                        <li><i class="fas fa-key"></i> Creación de Contraseñas CIEC</li>
+                        <li><i class="fas fa-file-invoice"></i> Factura Electrónica</li>
+                        <li><i class="fas fa-chart-line"></i> Asesoría Contable y Fiscal</li>
+                        <li><i class="fas fa-business-time"></i> Servicios de Contabilidad Empresarial</li>
+                        <li><i class="fas fa-edit"></i> Digitalización y Corrección de Actas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICIOS INFONAVIT -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 rounded-3 shadow-lg hover-shadow">
+                <div class="card-header text-white" style="background-color: #8c721e;">
+                    <h4 class="card-title" style="font-family: 'Roboto', sans-serif; font-size: 18px;">Trámites INFONAVIT</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled" style="font-size: 16px; color: #7f8c8d;">
+                        <li><i class="fas fa-sync-alt"></i> Reseteo de Cuentas</li>
+                        <li><i class="fas fa-file-alt"></i> Estado de Cuenta</li>
+                        <li><i class="fas fa-paperclip"></i> Aviso de Retención</li>
+                        <li><i class="fas fa-certificate"></i> Constancia de No Adeudo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCIÓN DE CONTACTO A WHATSAPP -->
 <section id="contacto" class="container py-5">
-    <h2 class="text-center" data-aos="fade-up">Contáctanos por WhatsApp</h2>
-    <div class="text-center">
-      <a href="https://wa.me/5513452764?text=Hola%20necesito%20más%20información" target="_blank" class="btn btn-success w-100">
-        Enviar Mensaje por WhatsApp
-      </a>
+    <div class="text-center mb-4" data-aos="fade-up">
+        <h2 style="color: #8c721e; font-weight: bold;">Contáctanos</h2>
+        <p class="text-muted">Estamos aquí para ayudarte. Ponte en contacto con nosotros a través de los siguientes medios.</p>
     </div>
-  </section>
-  
 
-  <!-- CHATBOT -->
-  <div id="chatbot" class="chatbot-container">
-    <button id="chatbotToggle">💬 Chat</button>
-    <div id="chatbotBox" class="chatbot-box d-none">
-      <div id="chatbotMessages"></div>
-      <input type="text" id="chatbotInput" placeholder="Escribe tu pregunta..." />
-      <button id="chatbotSend">Enviar</button>
+    <div class="row justify-content-center">
+        <!-- INFORMACIÓN DE CONTACTO -->
+        <div class="col-lg-6 text-center" data-aos="fade-up">
+            <ul class="list-unstyled">
+                <li class="mb-3"><i class="fas fa-map-marker-alt fa-lg" style="color: #8c721e;"></i> <strong>Dirección:</strong> Ecatepec de Morelos, Estado de México</li>
+                <li class="mb-3"><i class="fas fa-envelope fa-lg" style="color: #8c721e;"></i> <strong>Correo:</strong> martinez060198@gmail.com</li>
+                <li class="mb-3"><i class="fas fa-phone-alt fa-lg" style="color: #8c721e;"></i> <strong>Teléfono:</strong> +52 5513452764</li>
+            </ul>
+            
+            <!-- BOTÓN DE WHATSAPP -->
+            <a href="https://wa.me/521234567890" target="_blank" class="btn btn-success btn-lg mt-3" data-aos="zoom-in">
+                <i class="fab fa-whatsapp"></i> Contáctanos por WhatsApp
+            </a>
+        </div>
     </div>
-  </div>
-<!-- CHATBOT -->
-<div id="chatbot" class="chatbot-container">
-    <button id="chatbotToggle">💬 Chat</button>
-    <div id="chatbotBox" class="chatbot-box d-none">
-      <div id="chatbotHeader">
-        <h5>🤖 Chatbot Contable</h5>
-        <button id="chatbotClose">✖</button>
-      </div>
-      <div id="chatbotMessages"></div>
-      <input type="text" id="chatbotInput" placeholder="Escribe tu pregunta..." />
-      <button id="chatbotSend">Enviar</button>
-      <div id="quickResponses">
-        <button class="quick-btn">¿Cuáles son tus servicios?</button>
-        <button class="quick-btn">¿Cuánto cuesta?</button>
-        <button class="quick-btn">¿Cómo te contacto?</button>
-      </div>
-    </div>
-  </div>
-  
+
+    
+</section>
+
+
+
+
   <!-- PIE DE PÁGINA -->
   <footer class="text-center py-3">
-    <p>&copy; 2025 Servicios Contables. Todos los derechos reservados.</p>
+    <p>&copy; 2025 DMC Despacho Contable y Fiscal. </p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
