@@ -1,10 +1,18 @@
 body {
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
+  background-color: #050505;
+  color: white;  }
   
-  body.modo-oscuro {
+ /* body.modo-oscuro {
     background-color: #121212;
     color: white;
+  }*/
+  h1 {
+    color: #8c721e; /* Mantiene el color dorado/marrón */
+    font-weight: 900; /* Hace que la letra sea más gruesa */
+    font-size: 42px; /* Aumenta el tamaño de la letra */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra para resaltar */
+    letter-spacing: 2px; /* Separa un poco las letras para mayor impacto */
   }
   
   
@@ -175,6 +183,33 @@ body {
     text-overflow: ellipsis; /* Si el texto es muy largo, lo corta con '...' */
 }
 
+.whatsapp-btn {
+  position: fixed; /* Fija el botón en la pantalla */
+  bottom: 20px; /* Lo mantiene en la parte inferior */
+  right: 20px; /* Lo mantiene en la parte derecha */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  background-color: #25d366; /* Color de fondo de WhatsApp */
+  color: #fff; /* Color del icono */
+  padding: 15px; /* Ajusta el tamaño del botón */
+  border-radius: 50%; /* Hace el botón circular */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  width: 60px; /* Tamaño del botón */
+  height: 60px; /* Tamaño del botón */
+  position: fixed;
+}
+
+.whatsapp-btn i {
+  font-size: 32px; /* Tamaño del icono */
+}
+
+/* Efecto de escala al pasar el mouse */
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+}
 
 
     
