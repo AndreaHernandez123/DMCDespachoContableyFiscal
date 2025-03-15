@@ -18,18 +18,21 @@
         <!-- LOGO -->
         <a class="navbar-brand d-flex align-items-center" href="#">
             <img src="images/logodmc.png" alt="Logo Servicios Contables" style="max-width: 50px; border-radius: 100%;" class="me-2">
-            <span class="fw-bold">DESPACHO CONTABLE Y FISCAL</span>
+            <span class="fw-bold">DESPACHO CONTABLE</span>
         </a>
 
         <!-- BOTÓN MENÚ HAMBURGUESA -->
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
+<!-- BOTÓN DE WHATSAPP -->
+<a href="https://wa.me/521234567890" target="_blank" class="whatsapp-btn">
+    <i class="fab fa-whatsapp"></i>
+  </a>
         <!-- MENÚ -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <button id="modoOscuro" class="btn" style="color: rgb(255, 255, 255);">🌙 Modo Oscuro</button>
+               <!-- <button id="modoOscuro" class="btn" style="color: rgb(255, 255, 255);">🌙 Modo Oscuro</button> -->
                 <li class="nav-item">
                     <a class="nav-link active" href="#servicios">Servicios</a>
                 </li>
@@ -44,17 +47,58 @@
     </div>
 </nav>
 
-  <!-- ENCABEZADO -->
-<header class="text-center">
-    <img src="images/principal.png" alt="Imagen de Encabezado" class="img-fluid w-100" style="max-height: 400px; object-fit: cover;">
+<!-- ENCABEZADO -->
+<header class="container py-4">
+    <div class="row align-items-center">
+        <!-- COLUMNA DERECHA (Video) -->
+        <div class="col-md-8 text-center">
+            <video autoplay loop playsinline class="w-100" style="max-height: 500px; object-fit: contain;">
+                <source src="video/videoPrincipal.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+        <!-- COLUMNA IZQUIERDA (Misión y Visión) -->
+        <div class="col-md-4">
+            <!-- Sección de Misión -->
+            <h4 style="color: #8c721e; font-weight: bold;">Misión</h4>
+            <p style="text-align: justify;">
+                Nuestra misión es ofrecer servicios contables y fiscales de alta calidad, brindando asesoría personalizada y confiable para el cumplimiento eficiente de las obligaciones financieras de nuestros clientes.            </p>
+            <!-- Sección de Visión -->
+            <h4 style="color: #8c721e; font-weight: bold;">Visión</h4>
+            <p style="text-align: justify;">
+                Ser una empresa líder en innovación y sostenibilidad, reconocida por transformar positivamente la vida de las personas y contribuir al bienestar de las comunidades.            </p>
+                <h4 style="color: #8c721e; font-weight: bold;">Valores</h4>
+                <ul style="text-align: justify; list-style: none; padding: 0;">
+                    <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Actuamos con honestidad y transparencia en todas nuestras interacciones.</li>
+                    <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Estamos comprometidos con el bienestar de la comunidad y el medio ambiente.</li>
+                    <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Creemos en la colaboración y el respeto mutuo para alcanzar objetivos comunes.</li>
+                </ul>
+            </div>
+            
+    </div>
 </header>
+
+        <!-- Columna de Valores
+        <div class="col-md-4 mb-4">
+            <h3 style="color: #8c721e; font-weight: bold;">Valores</h3>
+            <ul style="text-align: justify; list-style: none; padding: 0;">
+                <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Integridad: Actuamos con honestidad y transparencia en todas nuestras interacciones.</li>
+                <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Excelencia: Buscamos la perfección en cada proyecto que emprendemos.</li>
+                <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Innovación: Fomentamos la creatividad y la implementación de soluciones novedosas.</li>
+                <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Responsabilidad Social: Estamos comprometidos con el bienestar de la comunidad y el medio ambiente.</li>
+                <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Trabajo en Equipo: Creemos en la colaboración y el respeto mutuo para alcanzar objetivos comunes.</li>
+            </ul>
+        </div> 
+    </div>
+</header>-->
 
 
 <!-- SECCIÓN SERVICIOS -->
 <section id="servicios" class="container py-5">
-    <h1 data-aos="fade-down" style="color: #8c721e; font-weight: bold; font-size: 36px;" class="text-center">
+    <h1 data-aos="fade-down" class="text-center">
         DMC TE OFRECE LOS SIGUIENTES TRÁMITES Y SERVICIOS
-    </h1>    
+    </h1>
+    
     <p class="text-center" style="font-size: 18px; color: #7f8c8d;">Ofrecemos asesoría contable y financiera de alta calidad, personalizada para empresas y autónomos que buscan optimizar su gestión fiscal y financiera</p>
     
     <!-- Servicios destacados -->
@@ -94,8 +138,8 @@
 
   <!-- SECCIÓN TRAMITES -->
 <section id="tramites" class="container ">
-    <h1 data-aos="fade-down" style="color: #8c721e; font-weight: bold; font-size: 36px; margin-bottom: 40px;" class="text-center">
-TRÁMITES</h1> 
+    <h1 data-aos="fade-down" class="text-center">
+        TRÁMITES</h1> 
     <div class="row mb-5">
         <!-- SERVICIOS ADMINISTRATIVOS -->
         <div class="col-lg-4 col-md-4 mb-4">
@@ -167,7 +211,8 @@ TRÁMITES</h1>
 <!-- SECCIÓN DE CONTACTO A WHATSAPP -->
 <section id="contacto" class="container py-5">
     <div class="text-center mb-4" data-aos="fade-up">
-        <h2 style="color: #8c721e; font-weight: bold;">Contáctanos</h2>
+        <h1 data-aos="fade-down" class="text-center">
+            CONTÁCTANOS</h2>
         <p class="text-center" style="font-size: 18px; color: #7f8c8d;">Estamos aquí para ayudarte. Ponte en contacto con nosotros a través de los siguientes medios.</p>
     </div>
 
@@ -180,24 +225,15 @@ TRÁMITES</h1>
                 <li class="mb-3"><i class="fas fa-phone-alt fa-lg" style="color: #8c721e;"></i> <strong>Teléfono:</strong> +52 5513452764</li>
             </ul>
             
-            <!-- BOTÓN DE WHATSAPP -->
-            <a href="https://wa.me/521234567890" target="_blank" class="btn btn-success btn-lg mt-3" data-aos="zoom-in">
-                <i class="fab fa-whatsapp"></i> Contáctanos por WhatsApp
-            </a>
+            
         </div>
-    </div>
-
-    
+    </div>    
 </section>
-
-
-
 
   <!-- PIE DE PÁGINA -->
   <footer class="text-center py-3">
     <p>&copy; 2025 DMC Despacho Contable y Fiscal. </p>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
