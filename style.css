@@ -210,6 +210,11 @@ body {
 .whatsapp-btn:hover {
   transform: scale(1.1);
 }
+.video-ajustado {
+  border-radius: 10px;  /* Bordes redondeados */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  border: 3px solid #8c721e; /* Borde azul (puedes cambiar el color) */
+}
 
 
     
