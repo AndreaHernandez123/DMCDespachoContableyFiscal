@@ -32,6 +32,9 @@
         <!-- MENÚ -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#Nosotros">Nosotros</a>
+                </li>
                <!-- <button id="modoOscuro" class="btn" style="color: rgb(255, 255, 255);">🌙 Modo Oscuro</button> -->
                 <li class="nav-item">
                     <a class="nav-link active" href="#servicios">Servicios</a>
@@ -42,55 +45,82 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="#contacto">Contáctanos</a>
                 </li>
+                
             </ul>
         </div>
     </div>
 </nav>
 
 <!-- ENCABEZADO -->
-<header class="container py-4">
+<header class="container py-3">
     <div class="row align-items-center">
         <!-- COLUMNA DERECHA (Video) -->
-        <div class="col-md-8 text-center">
-            <video autoplay loop playsinline class="w-100" style="max-height: 500px; object-fit: contain;">
-                <source src="video/videoPrincipal.mp4" type="video/mp4">
-                Tu navegador no soporta la reproducción de videos.
-            </video>
+        <div class="col-md-1 text-center">
         </div>
-        <!-- COLUMNA IZQUIERDA (Misión y Visión) -->
-        <div class="col-md-4">
-            <!-- Sección de Misión -->
-            <h4 style="color: #8c721e; font-weight: bold;">Misión</h4>
-            <p style="text-align: justify;">
-                Nuestra misión es ofrecer servicios contables y fiscales de alta calidad, brindando asesoría personalizada y confiable para el cumplimiento eficiente de las obligaciones financieras de nuestros clientes.            </p>
-            <!-- Sección de Visión -->
-            <h4 style="color: #8c721e; font-weight: bold;">Visión</h4>
-            <p style="text-align: justify;">
-                Ser una empresa líder en innovación y sostenibilidad, reconocida por transformar positivamente la vida de las personas y contribuir al bienestar de las comunidades.            </p>
-                <h4 style="color: #8c721e; font-weight: bold;">Valores</h4>
-                <ul style="text-align: justify; list-style: none; padding: 0;">
-                    <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Actuamos con honestidad y transparencia en todas nuestras interacciones.</li>
-                    <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Estamos comprometidos con el bienestar de la comunidad y el medio ambiente.</li>
-                    <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Creemos en la colaboración y el respeto mutuo para alcanzar objetivos comunes.</li>
-                </ul>
-            </div>
-            
+        <div class="col-md-10 text-center">
+            <video controls height="90%" width="100%" class="video-ajustado">
+                <source src="video/videoPrincipal.mp4" type="video/mp4" style="height: 100px;">
+                Tu navegador no soporta la reproducción de videos.
+            </video> 
+        </div> 
+        <div class="col-md-1 text-center">
+        </div>     
     </div>
 </header>
+<!-- SECCIÓN MISION, VISION Y VALORES -->
+<section id="Nosotros" class="container py-5">
+    <h1 data-aos="fade-down" class="text-center">
+        NOSOTROS
+    </h1> 
+    <div class="row text-center">
+        <div class="col-md-4 d-flex">
+            <div class="card shadow-lg border-0 h-100 w-100 d-flex flex-column" style="background-color: #050505; border: 3px solid #8c721e !important; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
+                <div class="card-body d-flex flex-column">
+                    <h4 class="card-title text-center" style="color: #8c721e; font-weight: bold;">Misión</h4>
+                    <p class="card-text text-justify flex-grow-1" style="color: white; text-align: justify;">
+                        Nuestra misión es ofrecer servicios contables y fiscales de alta calidad, brindando asesoría personalizada y confiable para el cumplimiento eficiente de las obligaciones financieras de nuestros clientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Sección de Visión -->
+        <div class="col-md-4 d-flex">
+            <div class="card shadow-lg border-0 h-100 w-100 d-flex flex-column" style="background-color: #050505; border: 3px solid #8c721e !important; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
+                <div class="card-body d-flex flex-column">
+                    <h4 class="card-title text-center" style="color: #8c721e; font-weight: bold;">Visión</h4>
+                    <p class="card-text text-justify flex-grow-1" style="color: white; text-align: justify;">
+                        Ser una empresa líder en innovación y sostenibilidad, reconocida por transformar positivamente la vida de las personas y contribuir al bienestar de las comunidades.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-        <!-- Columna de Valores
-        <div class="col-md-4 mb-4">
-            <h3 style="color: #8c721e; font-weight: bold;">Valores</h3>
-            <ul style="text-align: justify; list-style: none; padding: 0;">
-                <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Integridad: Actuamos con honestidad y transparencia en todas nuestras interacciones.</li>
-                <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Excelencia: Buscamos la perfección en cada proyecto que emprendemos.</li>
-                <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Innovación: Fomentamos la creatividad y la implementación de soluciones novedosas.</li>
-                <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Responsabilidad Social: Estamos comprometidos con el bienestar de la comunidad y el medio ambiente.</li>
-                <li><i class="fas fa-check-circle" style="color: #8c721e;"></i> Trabajo en Equipo: Creemos en la colaboración y el respeto mutuo para alcanzar objetivos comunes.</li>
-            </ul>
-        </div> 
+       <!-- Sección de Valores -->
+<!-- Sección de Valores -->
+<div class="col-md-4 d-flex">
+    <div class="card shadow-lg border-0 h-100 w-100 d-flex flex-column" style="background-color: #050505; border: 3px solid #8c721e !important; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
+        <div class="card-body d-flex flex-column">
+            <h4 class="card-title text-center" style="color: #8c721e; font-weight: bold;">Valores</h4>
+            <div class="card-text" style="color: white; text-align: justify; flex-grow: 1; overflow-wrap: break-word; margin: 0; padding: 0;">
+                <div style="margin-bottom: 10px;">
+                    <i class="fas fa-check-circle" style="color: #8c721e;"></i> Actuamos con honestidad y transparencia.
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <i class="fas fa-check-circle" style="color: #8c721e;"></i> Buscamos la perfección en cada servicio brindado.
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <i class="fas fa-check-circle" style="color: #8c721e;"></i> Creemos en la colaboración y el respeto mútuo.
+                </div>
+            </div>
+        </div>
     </div>
-</header>-->
+</div>       
+    </div>
+</section>
+    
+
+
 
 
 <!-- SECCIÓN SERVICIOS -->
